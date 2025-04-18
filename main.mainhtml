@@ -1,0 +1,17 @@
+partials = { "head": "/partials/header.html", "foot": "/partials/footer.html" }
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AutoTrain</title>
+</head>
+<body>
+	<uc:head />
+	<div class="wrap">
+		<uc:content />
+	</div>
+	<uc:foot />
+</body>
+</html>
