@@ -1,0 +1,22 @@
+:root {
+	--color-bg: #2E3436;
+	--text-color: #F3F3F3;
+	--accent: #66BDDA
+}
+
+/* General Rules */
+body { display: flex; flex-direction: column; background-color: var(--color-bg); color: var(--text-color) }
+.wrap { margin: auto; max-width: 1200px; width: 100% }
+
+/* Header */
+header p { font-size: 32px }
+
+/* Footer */
+
+/* Forms */
+form input, form label { display: block; }
+form input {  height: 30px; width: 25% }
+form label { margin: 10px auto }
+
+/* Everything else */
+.btn { padding: 10px 40px; color: var(--color-bg); background-color: var(--accent);  border-radius: 3px; border: none;  }
